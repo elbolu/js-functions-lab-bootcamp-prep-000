@@ -9,7 +9,7 @@ function happyHolidaysTo(string){
 function happyHolidaysTo(string) {
  var name = 'you'
  var holiday = 'Independence Day'
- return "Happy "${holiday}", $"{name}!"";
+ return `Happy ${holiday}, ${name}!`;
 }
 function holidayCountdown(string) {
   var days = '20'
